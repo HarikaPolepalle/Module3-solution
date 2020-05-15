@@ -1,5 +1,9 @@
-#header-nav{
+#header-nav {
 background-color: yellow;
 border-radius: 0;
 border: 0;
+}
+.navbar-brand h1{
+  color:red;
+  text-transform: uppercase;
 }
