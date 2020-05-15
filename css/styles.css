@@ -3,7 +3,6 @@ background-color: yellow;
 border-radius: 0;
 border: 0;
 }
-.navbar-brand h1{
-  color:red;
-  text-transform: uppercase;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid black;
 }
