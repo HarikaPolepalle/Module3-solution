@@ -25,10 +25,10 @@ border: 0;
 }
 
 
-/*.navbar-header button.navbar-toggle {
+.navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
-}*/
+}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #888;
 }
