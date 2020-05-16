@@ -1,5 +1,5 @@
 #header-nav {
-background-color: yellow;
+background-color: gray;
 border-radius: 0;
 border: 0;
 }
@@ -25,14 +25,15 @@ border: 0;
 }
 button{
     cursor: pointer;
+    color: red;
 }
 /*.navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
-}
+}*/
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
   border: 1px solid black;
-}
+}/*
 button{
     width: 59px;
     height: 50px;
