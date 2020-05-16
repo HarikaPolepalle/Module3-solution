@@ -24,10 +24,6 @@ border: 0;
     border-bottom-left-radius: 4px;
 }
 
-
-.navbar-header button.navbar-toggle {
-    clear: both;
-}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #888;
 }
@@ -49,7 +45,7 @@ font: inherit;
     background: #E7E7E7;
 }
 h1{
-    color: red;
+    color: green;
 }
 .navbar-toggle .icon-bar {
   display: block;
