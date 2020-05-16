@@ -7,24 +7,7 @@ color: yellow;
 
 }
 
-.navbar-toggle {
-    padding: 9px 10px;
-    padding-top: 9px;
-    padding-right: 10px;
-    padding-bottom: 9px;
-    padding-left: 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
+
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
@@ -68,10 +51,6 @@ h1{
   background-color: black;
   border-radius: 1px;
 }
-.navbar-toggle {
- position: relative;
-    float: right;
-}
 @media (min-width: 768px) {
     .navbar-toggle{
         display: none;
@@ -83,10 +62,7 @@ h1{
 	font-size: 16px;
 	position: relative;
 }*/
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
+
 section { 
 	background-color: rgb(150, 150, 150);
    	border: 2px solid black;
@@ -95,8 +71,7 @@ section {
    	padding: 3px;
 	width: 100%;
 	height: auto;
-   	text-align: justify;
-   	position: relative;
+	position: relative;
  }
 
 
@@ -124,6 +99,13 @@ section {
 	font-weight: bold;
 
 }
+@media (mix-width: 1200px)  {
+  
+  .col-lg-12 {
+  	float: left;
+    width: 100%;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px){
  
   .col-md-12 {
@@ -131,8 +113,6 @@ section {
     float: left;
 	}
 }
-
-/* Tablet PC view */
 @media (min-width: 768px) and (max-width: 991px) {
  
   .col-sm-12 {
@@ -140,7 +120,6 @@ section {
     float: left;
   }
 }
-/* Cell phone view */
 @media (max-width: 767px)  {
   
   .col-xs-12 {
@@ -148,4 +127,27 @@ section {
     width: 100%;
   }
 }
-
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.navbar-toggle {
+	position: relative;
+    float: right;
+    padding: 9px 10px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
