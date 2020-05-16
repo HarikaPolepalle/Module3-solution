@@ -32,7 +32,7 @@ border: 0;
   border: 1px solid black;
 }
 
-#nav-list{
+/*#nav-list{
     margin-top: 10px;
 }
 #nav-list a{
@@ -42,7 +42,7 @@ border: 0;
 #nav-list a:hover{
     background: #E7E7E7;
 }
-
+*/
 h1{
     color: black;
 }
