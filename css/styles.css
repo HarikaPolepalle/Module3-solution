@@ -59,3 +59,10 @@ h1{
   background-color: #cccccc;
   border-radius: 1px;
 }
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+
