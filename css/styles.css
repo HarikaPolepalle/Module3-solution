@@ -49,7 +49,7 @@ font: inherit;
     background: #E7E7E7;
 }
 h1{
-    color: red;
+    color: black;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -68,6 +68,55 @@ h1{
 .navbar-header button.navbar-toggle {
     clear: both;
 }
+
+* {
+box-sizing: border-box;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-size: 16px;
+	position: relative;
+}
+
+.section { 
+	background-color: rgb(150, 150, 150);
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#p1 {
+	background-color: pink;
+	color: black;
+}
+#p2 {
+	background-color: red;
+	color: white;
+}
+#p3 {
+	background-color: yellow;
+	color: black;
+}
+}
+
+.row {
+	width: 100%;
+}
+
+
 
 
 
