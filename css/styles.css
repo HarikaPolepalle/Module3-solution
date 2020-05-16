@@ -72,7 +72,11 @@ h1{
 .icon-bar {
     width: 100%; /* Full-width */
     background-color: grey; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
+    overflow: visible; /* Overflow due to float */
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
 }
 
 
