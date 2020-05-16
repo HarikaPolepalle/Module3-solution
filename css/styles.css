@@ -60,7 +60,7 @@ button{
     background: #E7E7E7;
 }
 h1{
-    color: black;
+    color: red;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -80,6 +80,12 @@ margin-right: -15px !important;
 }
 .navbar-right {
 float: right!important;
+}
+@media (max-width: 767px) {
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
 }
 
 
