@@ -61,10 +61,6 @@ h1{
     }
 }
 
-* {
-box-sizing: border-box;
-}
-
 p {
 	padding: 15px 5px 0px 5px;
 	font-size: 16px;
