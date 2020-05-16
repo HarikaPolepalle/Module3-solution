@@ -60,7 +60,7 @@ button{
     background: #E7E7E7;
 }
 h1{
-    color: red;
+    color: black;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -69,11 +69,7 @@ h1{
   background-color: #cccccc;
   border-radius: 1px;
 }
-.icon-bar {
-    width: 100%; /* Full-width */
-    background-color: grey; /* Dark-grey background */
-    overflow: visible; /* Overflow due to float */
-}
+
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
