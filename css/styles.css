@@ -66,10 +66,14 @@ h1{
     }
 }
 
-p {
+/*p {
 	padding: 15px 5px 0px 5px;
 	font-size: 16px;
 	position: relative;
+}*/
+a {
+    color: #337ab7;
+    text-decoration: none;
 }
 section { 
 	background-color: rgb(150, 150, 150);
