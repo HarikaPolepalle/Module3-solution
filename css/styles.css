@@ -27,7 +27,6 @@ border: 0;
 
 .navbar-header button.navbar-toggle {
     clear: both;
-    margin-top: -30px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #888;
@@ -50,7 +49,7 @@ font: inherit;
     background: #E7E7E7;
 }
 h1{
-    color: black;
+    color: red;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -64,10 +63,6 @@ h1{
     .navbar-toggle{
         display: none;
     }
-}
-
-.navbar-header button.navbar-toggle {
-    clear: both;
 }
 
 * {
